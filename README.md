@@ -9,7 +9,7 @@ Know that the auto-install feature in Blender is not supported, you will have to
 Open the blender/x.x/scripts/addons folder, then pull the io_scene_ac3d folder into the addons folder of blender. There's an alternative location you can drop it, at ~/.blender/x.x/scripts/addons (linux) or c:\Users\[username]\AppData\Roaming\Blender Foundation\Blender\x.x\scrips\addons (Windows 7+), where x.x is the version of Blender and [username] is the Windows user name. Notice AppData per default is hidden in Windows, but you can just write it in the address bar.
 
 ## I can't see it in the import/export menu!
-You'll need to enable the script in the user preferences window after installing it - open the user preferences window (File->User Preferences or Ctrl-Alt-U) and then go to the Add-on tab, click the button for Import-Export and then check the box on the right of "Import-Export: AC3D (.ac)"
+You'll need to enable the script in the Blender Preferences window after installing it - open the Blender Preferences window (Edit->Preferences) and then go to the Add-ons tab, select Import-Export in category filter (default value is All) and then check the box on the left of "Import-Export: AC3D (.ac) format"
 
 ## Uh, I've done all that how do I use it?
 Go to File->Import->AC3D (.ac), select a file, adapt the import settings to your liking, and let it do the work.

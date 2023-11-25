@@ -6,6 +6,12 @@ It's a few python scripts to import/export Inivis AC3D data into and out of Blen
 ## Blender 2.80
 For Blender 2.80 you will need a newer revision of the plugin (https://github.com/NikolaiVChr/Blender-AC3D/tree/2.80)
 
+## Blender 3.2
+For Blender 3.2 you will need a newer revision of the plugin (https://github.com/NikolaiVChr/Blender-AC3D/tree/3.2)
+
+## Blender 4.0
+For Blender 4.0 you will need a newer revision of the plugin (https://github.com/NikolaiVChr/Blender-AC3D/tree/4.0)
+
 ## For earlier Blender 2.6x versions
 For these you will need an older revision of the plugin (https://github.com/NikolaiVChr/Blender-AC3D/tree/BL2.62)
 

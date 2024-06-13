@@ -1,4 +1,4 @@
-# Blender-AC3D - Version 3.3
+# Blender-AC3D - Version 3.4
 
 ## What is it?
 It's a few python scripts to import/export Inivis AC3D data into and out of Blender 2.80.

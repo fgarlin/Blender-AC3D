@@ -207,7 +207,7 @@ class AC3D_OT_Message(Operator):
 
     def invoke(self, context, event):
         wm = context.window_manager
-        return wm.invoke_popup(self, width=400, height=200)
+        return wm.invoke_popup(self, width=400)
 
     def draw(self, context):
         self.layout.label(text="A message has arrived")

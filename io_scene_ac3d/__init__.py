@@ -37,12 +37,12 @@ bl_info = {
     "name": "AC3D (.ac) format",
     "description": "Inivis AC3D model exporter for Blender.",
     "author": "Willian P Gerano, Chris Marr, Thomas Geymayer, Nikolai V. Chr., Scott Giese",
-    "version": (3, 3),
-    "blender": (2, 80, 0),
+    "version": (3, 8),
+    "blender": (3, 0, 0),
     "category": "Import-Export",
     "location": "File > Import-Export",
     "warning": "",
-    "wiki_url": (
+    "doc_url": (
         "http://wiki.flightgear.org/Blender_AC3D_import_and_export"
         "#Majic79_addon"),
     "tracker_url": "https://github.com/NikolaiVChr/Blender-AC3D/issues"
@@ -207,7 +207,7 @@ class AC3D_OT_Message(Operator):
 
     def invoke(self, context, event):
         wm = context.window_manager
-        return wm.invoke_popup(self, width=400, height=200)
+        return wm.invoke_popup(self, width=400)
 
     def draw(self, context):
         self.layout.label(text="A message has arrived")
